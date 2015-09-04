@@ -263,7 +263,7 @@ void init_ips(void)
 {
     Serial.println("Initing matrix driver...");
     lc.shutdown(0, false);
-    lc.setIntensity(0, 15);
+    lc.setIntensity(0, 7);
     lc.clearDisplay(0);
 
 #ifdef USE_DS1307_RTC
